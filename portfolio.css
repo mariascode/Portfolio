@@ -92,7 +92,7 @@ padding-left:7.5rem;
 }
 
 .aboutHeading{
-    font-family: Bodoni96;
+    font-family: Bodoni96, 'Playfair Display', serif;
     font-size:max(8rem, 10vw);
     font-weight: 200;
     line-height: 1;
@@ -140,7 +140,7 @@ align-items: center;
 
 
 .heading{
-  font-family: Bodoni96;
+  font-family: Bodoni96, 'Playfair Display', serif;
   font-size:4rem;
   font-weight: 600;
   color:#313837;
@@ -204,6 +204,7 @@ align-items: center;
 grid-column-start: 2;
 grid-column-end: 5;
 grid-row-start: 5;
+grid-row-end: 6;
 display: flex;
 flex-flow: column;
 flex-wrap: nowrap;
@@ -250,6 +251,7 @@ justify-content: start;
   color:#313837;
   font-weight: 550;
   text-decoration: none;
+  padding-right: 1.5rem;
 }
 
 .picLink:hover{
@@ -257,7 +259,7 @@ justify-content: start;
 }
 
 .picName{
-  font-family: Bodoni96;
+  font-family: Bodoni96, 'Playfair Display', serif;
   font-size:2.2rem;
   font-weight: 600;
   line-height: 2;
@@ -270,7 +272,6 @@ justify-content: start;
   .picName {
    font-size: 2rem;
    }
-
 }
 
 #pic{
@@ -283,6 +284,7 @@ justify-content: start;
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 6;
+  grid-row-end: 7;
   }
   
   @media only screen and (max-width: 768px) {
@@ -290,6 +292,7 @@ justify-content: start;
       grid-column-start: 1;
       grid-column-end:6;
       grid-row-start: 6;
+      grid-row-end: 7;
       padding-left: 2rem;
       padding-right: 2rem;
      }
@@ -315,7 +318,7 @@ justify-content: start;
   
 
   .skillHeading{
-    font-family: Bodoni96;
+    font-family: Bodoni96, 'Playfair Display', serif;
     font-size: 2.2rem;
     line-height:1.5;
     font-weight: 600;
@@ -346,58 +349,85 @@ justify-content: start;
   }
 
 ul li span{
-  font-size:0.8rem;
+  font-size:0.7rem;
   } 
   
-
    .footer{
         grid-column-start: 1;
         grid-column-end:6;
         grid-row-start: 7;
         background-color: #70AEA6;
-       }
-  
+        padding-left: 7.5rem; 
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;  
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        grid-row-gap: 2rem;
+        margin-bottom: 0 auto;
+      }
 
+       @media only screen and (max-width: 768px) {
+        .footer{
+      padding-left: 2rem;
+         }
+      }
 
-       .contactIcon{
-        width: 50px;
-        height: 50px;
-        margin-left: 10px;
-        margin-top: -5px;
-        border: none;
-        outline: none !important;
+       .footerLink{
         cursor: pointer;
         background-color: transparent;
         background-size: 100%;
-        align-self: center;
-      }
-      
-      .contactIcon.mail{
-        background-image: url("https://res.cloudinary.com/dbrrwlzjo/image/upload/v1599585186/Portfolio/icons8-new-post-50_a8txtd.png");
-      }
-      
-      .contactIcon.twitter{
-        background-image: url("https://res.cloudinary.com/dbrrwlzjo/image/upload/v1599584960/Portfolio/icons8-twitter-50_to5ujo.png");
+        border-style: none;
+        padding-right: 20px;
       }
 
-      .contactIcon.gitHub{
-        background-image: url("https://res.cloudinary.com/dbrrwlzjo/image/upload/v1599584961/Portfolio/icons8-octocat-50_zcmouu.png");
+      .iconImg{
+        height: 40px;
+        width: 40px;
       }
-
-      .contactIcon.codePen{
-        background-image: url("https://res.cloudinary.com/dbrrwlzjo/image/upload/v1599584960/Portfolio/icons8-codepen-50_m4vl6a.png");
-      }
-
-      .contactIcon.linkedin{
-        background-image: url("https://res.cloudinary.com/dbrrwlzjo/image/upload/v1599584961/Portfolio/icons8-linkedin-2-60_bkwiuy.png");
-      }
-
-
 
       @media only screen and (max-width: 768px) {
-        .contactIcon{
-          width: 35px;
+        .iconImg{
           height: 35px;
-         }
+          width: 35px;
+        }
       }
-      
+  
+  .footerHeading{
+    font-family: Bodoni96, 'Playfair Display', serif;
+    font-size: 1.8rem;
+    line-height:2;
+    font-weight: 600;
+    color:#FBF5F3;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footerHeading {
+     font-size: 1.5rem;
+     line-height:2;
+     }
+    }
+
+
+.footerText{
+    font-size:1.2rem;
+    font-weight: 580;
+    font-family: 'Spartan', sans-serif;
+    line-height:; 
+    color:#FBF5F3;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footerText{
+     font-size:1rem;
+     line-height: 1.5;
+     }
+  }
+
+  .copyRight{
+    font-size:0.7rem;
+    font-weight: 600;
+    font-family: 'Spartan', sans-serif;
+    line-height:2; 
+    color:#FBF5F3;
+  }
