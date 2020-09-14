@@ -440,6 +440,12 @@ font-size:0.7rem;
   font-family: 'Spartan', sans-serif;
   line-height:2; 
   color:#FBF5F3;
+  text-decoration: none;
+}
+
+.icon8Link{
+  text-decoration: none;
+  color:#FBF5F3;
 }
 
 .bigFooterText{
