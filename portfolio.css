@@ -35,6 +35,12 @@ padding-top: 1.5rem;
 padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .header {
+    background-color: rgba(112, 174, 166, 0.8);
+   }
+  }
+
 nav { 
 font-size:1.3rem;
 font-weight: 550;
