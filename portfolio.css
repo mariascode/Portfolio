@@ -104,7 +104,7 @@ padding-left: 1rem;
 
 @media only screen and (max-width: 767px) {
 .aboutHeading{
-  font-size:max(3.8rem, 3vw);
+  font-size:max(3.6rem, 3vw);
  }
 }
 
