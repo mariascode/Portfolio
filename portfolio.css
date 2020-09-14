@@ -414,8 +414,8 @@ font-size:0.7rem;
 
 
 .footerText{
-  font-size:1.2rem;
-  font-weight: 580;
+  font-size:1.3rem;
+  font-weight: 600;
   font-family: 'Spartan', sans-serif;
   line-height:; 
   color:#FBF5F3;
@@ -434,4 +434,8 @@ font-size:0.7rem;
   font-family: 'Spartan', sans-serif;
   line-height:2; 
   color:#FBF5F3;
+}
+
+.bigFooterText{
+  line-height:2;
 }
