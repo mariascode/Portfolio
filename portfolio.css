@@ -49,7 +49,8 @@ font-family: 'Spartan', sans-serif;
 
 @media only screen and (max-width: 768px) {
 nav {
-font-size:1.1rem;
+font-size:0.92rem;
+font-weight: 590;
 justify-content: space-evenly;
  }
 }
